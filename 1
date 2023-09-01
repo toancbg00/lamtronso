@@ -1,0 +1,12 @@
+#include <stdio.h>
+#include <iostream>
+#include <math.h>
+using namespace std;
+int main()
+{
+	float a;
+	printf_s("Nhap gia tri cua a: ", &a);
+	scanf_s("%f", &a);
+	float a1 = (round(a * 10)) / 10;
+	printf_s("So %f sau khi lam tron ta duoc: %.1f", a, a1);
+}
